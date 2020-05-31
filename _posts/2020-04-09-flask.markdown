@@ -4,11 +4,12 @@ title:  Flask Workshop
 date:   2020-04-09 09:06:05 -0500
 categories: workshop
 author:
-- Brian Wilens
+- Thomas Driscoll
+- Roshini
 ---
 
 This workshop has been ported to this website by Sahan Kumarasinghe.
-The original Google Slides by Brian with clickable links are available [here](https://docs.google.com/presentation/d/1B0CyviSLx3unX3fd5nlH632PNFnaNdz7jxTLSwl336s/edit#slide=id.g7d6891fedc_0_0). 
+The original Google Slides by Thomas Driscoll and Roshini with clickable links are available [here](https://docs.google.com/presentation/d/1B0CyviSLx3unX3fd5nlH632PNFnaNdz7jxTLSwl336s/edit#slide=id.g7d6891fedc_0_0). 
 ![Slide 1](/assets/workshops/flask/00.png)
 ![Slide 2](/assets/workshops/flask/01.png)
 ![Slide 3](/assets/workshops/flask/02.png)
