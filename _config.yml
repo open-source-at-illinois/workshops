@@ -1,6 +1,6 @@
-title: Open-Source at Illinois
+title: Open-Source at Illinois Workshops
 author:
-  name: GitHub User
+  name: Contact Us
   email: exec@osai-web.com
 description: > # this means to ignore newlines until "show_excerpts:"
   This is the workshop page for Open-Source at Illinois.
@@ -16,7 +16,7 @@ minima:
   # generate social links in footer
   social_links:
     github:  open-source-at-illinois
-    discord: test
+    discord: QE2w9vx
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -49,7 +49,6 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - about.md
  - index.md
 
 # Build settings
