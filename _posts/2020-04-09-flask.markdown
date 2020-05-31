@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Flask Workshop
+date:   2020-04-09 09:06:05 -0500
+categories: workshop
+---
+
+The Google Slides with clickable links are available [here](https://docs.google.com/presentation/d/1B0CyviSLx3unX3fd5nlH632PNFnaNdz7jxTLSwl336s/edit#slide=id.g7d6891fedc_0_0). 
+![Slide 1](/assets/workshops/flask/00.png)
+![Slide 2](/assets/workshops/flask/01.png)
+![Slide 3](/assets/workshops/flask/02.png)
+![Slide 4](/assets/workshops/flask/03.png)
+![Slide 5](/assets/workshops/flask/04.png)
+![Slide 6](/assets/workshops/flask/05.png)
+![Slide 7](/assets/workshops/flask/06.png)
+![Slide 8](/assets/workshops/flask/07.png)
+![Slide 9](/assets/workshops/flask/08.png)
+![Slide 10](/assets/workshops/flask/09.png)
+![Slide 11](/assets/workshops/flask/10.png)
