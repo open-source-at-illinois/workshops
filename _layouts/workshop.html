@@ -27,9 +27,45 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  {%- if page.slides.link -%}
+    <a href="{{ page.slides.link }}">Click for Slides</a><br>
+  {%- endif -%}
+  {%- if page.objective.summary -%}
+  <h3>Goal</h3>
+  <p>{{page.objective.summary}}</p>
+  {%- if page.objective.topics.size > 0 -%}
+  <h4>Topics covered:</h4>
+  <ul>
+  {%- for topic in page.objective.topics -%}
+  <li>{{topic}}</li>
+  {%- endfor -%}
+  </ul>
+  {%- endif -%}
+  {%- endif -%}
+  {%- if page.software.size > 0 -%}
+  <h3>Necessary Software</h3>
+  <ul>
+    {%- for software in page.software -%}
+    <li>
+      {%- if software.homepage -%}<a href="{{software.homepage}}">{{software.name}}</a>
+      {%- else -%}{{software.name}}{%- endif -%}
+    {%- if software.installing -%}: <a href="{{software.installing}}">(install)</a>{%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+  {%- if page.instructions.size > 0 -%}
+  <h3>Instructions for presenting</h3>
+  <p>
+  {% for instruction in page.instructions %} {{instruction}} {% endfor %}
+  </p>
+  {% endif %}
+  {%- assign content = content | strip_newlines -%}
+  {%- if content != "" -%}
+  <hr>
+    <p>{{ content }}</p>
   </div>
-
+  {%- endif -%}
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

@@ -51,8 +51,23 @@ minima:
 header_pages:
  - index.md
 
+collections:
+  workshops:
+    output: true
+    permalink: /:name
+
+
+defaults:
+  - scope: 
+      path: ""
+      type: "workshops"
+    values:
+      layout: workshop
+      published: false
 # Build settings
 theme: minima
+
+exclude: ["_workshops/TEMPLATE.md"]
 
 plugins:
  - jekyll-feed

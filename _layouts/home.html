@@ -11,9 +11,9 @@ layout: default
 
 
   {% if site.paginate %}
-    {% assign posts = paginator.posts %}
+    {% assign workshops = paginator.workshops | sort: "date" | reverse %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% assign posts = site.workshops | sort: "date" | reverse %}
   {% endif %}
 
 
