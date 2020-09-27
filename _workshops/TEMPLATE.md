@@ -1,6 +1,6 @@
 ---
 title: "Your very cool workshop!"
-date:   2020-09-12
+date:   2020-09-12 # format: YYYY-MM-DD
 author:
 - "Firstname Lastname"
 slides:
@@ -23,7 +23,7 @@ software:
       homepage: "https://coolsoftware2"
       installing: "https://coolsoftware2/installing"
 # List instructions for the presenter of the slides here
-# List any special instructions
+# List any special instructions here too.
 instructions:
     - Just through the slides.
 ---
