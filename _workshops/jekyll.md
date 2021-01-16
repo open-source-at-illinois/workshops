@@ -39,4 +39,4 @@ instructions:
     - Present the introductory slides to members for ~15 minutes, and allow members to do the self-paced workshop for the remaining 45 minutes individually or in groups.
 ---
 
-Link to self paced workshop: https://github.com/open-source-at-illinois/jekyll-workshop/
+Link to self paced workshop: <https://github.com/open-source-at-illinois/jekyll-workshop/>
