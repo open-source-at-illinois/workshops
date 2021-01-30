@@ -5,7 +5,7 @@ date:   2021-01-30
 author:
 - Sahan Kumarasinghe
 slides:
-    link: "#"
+    link: "https://docs.google.com/presentation/d/13fXG9FAndd5ZCeKH9VXZ3Gm9_lata4HrOjWbEaqmbcE/edit?usp=sharing"
 objective: 
     summary: "Learn how to use Git interactively using Git Gud."
 software:
